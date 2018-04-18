@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     padding: 2rem;
 
 }
+
 ul{
     padding: 1rem;
     display: flex;
@@ -14,6 +16,7 @@ ul{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 li{
     background-color: #ffdfd9;
     color: black;
@@ -25,10 +28,13 @@ li{
        grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
        grid-gap: 1rem;
        padding: 1rem;
+
        justify-content: center;
        box-shadow: 0 1px 1px black;
 }
+
  img{
+
    background-position: top;
    background-size: cover;
    height: 200px;
@@ -38,8 +44,7 @@ li{
    transition: all .2s;
 }
 
-
-img:hover{
+img:hover {
     box-shadow: none;
     transform: scale(1.1);
 }
