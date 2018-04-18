@@ -7,6 +7,7 @@
 body{
     padding: 2rem;
 
+
 }
 
 ul{
@@ -23,13 +24,12 @@ li{
     padding: .51rem;
 }
 .container{
-       margin-top: 1rem;
        display: grid;
        grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
        grid-gap: 1rem;
        padding: 1rem;
        justify-content: center;
-       box-shadow: 0 1px 1px black;
+       box-shadow: 0 1px 1px rgb(255, 255, 255);
 }
 
  img{
@@ -43,7 +43,76 @@ li{
    transition: all .2s;
 }
 
-img:hover {
-    box-shadow: none;
-    transform: scale(1.1);
+
+
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,620px));
+    height: 40vh;
+    grid-gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.im-left{
+    background-color: black;
+}
+
+.im-right {
+    background-color: rgb(24, 245, 208);
+}
+
+.col{
+    height: 30vh;
+}
+.cols-3{
+
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(300px,410px));
+   grid-gap: 1rem;
+   justify-content: center;
+    padding: 1rem;
+
+}
+
+
+
+
+.col-1{
+    background-color: blue;
+
+
+}
+
+.col-2{
+    background-color: aquamarine;
+}
+
+.col-3 {
+    background-color: rgb(255, 0, 149);
+}
+
+.col-4{
+    background-color: darkgoldenrod;
+}
+.col-5 {
+    background-color: rgb(69, 150, 105);
+}
+.col-6{
+    background-color: darkorange;
+
+}
+
+
+footer{
+    padding-top: 3rem;
+}
+
+
+
+
+.footer{
+    box-shadow:  0 1px 2px rgb(0, 0, 0);
+    background-color: rgba(255, 143, 6, 0.644);
 }
