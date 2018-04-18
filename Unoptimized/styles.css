@@ -25,7 +25,7 @@ li{
 }
 .container{
        display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+       grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
        grid-gap: 1rem;
        padding: 1rem;
        justify-content: center;
@@ -37,7 +37,7 @@ li{
    background-position: top;
    background-size: cover;
    height: 200px;
-   width:300px;
+   width:290px;
    box-shadow: 0 2px 10px black;
    cursor: pointer;
    transition: all .2s;
