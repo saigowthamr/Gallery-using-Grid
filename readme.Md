@@ -3,7 +3,7 @@
 
 ## Gallery Using Grid with No media queries and Margins
 
-![Gallery](https://raw.githubusercontent.com/saigowthamr/Gallery-using-Grid/master/screenshots/gallery.png)
+
 
 ## Optimized
 
