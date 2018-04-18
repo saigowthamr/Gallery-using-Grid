@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "simple Gallery using grid ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:min": "cleancss -o styles.min.css  styles.css ",
+    "html:min": "htmlmin  -o index.html  index.src.html"
+  },
+  "author": "saigowtham",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11",
+    "html-minifier": "^3.5.14",
+    "html-minifier-cli": "^0.1.0",
+    "purify-css": "^1.2.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "postcss-cli": "^5.0.0"
+  }
+}
