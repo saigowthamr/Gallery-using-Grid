@@ -10,7 +10,7 @@
 ![Optimized](https://raw.githubusercontent.com/saigowthamr/Gallery-using-Grid/master/screenshots/optimized.png)
 
 
-## [Un Minfied](https://saigowthamr.github.io/Gallery-using-Grid/gallery/)
+## [Un Minfied](https://saigowthamr.github.io/Gallery-using-Grid/gallery)
 
 ![Not minfied](https://raw.githubusercontent.com/saigowthamr/Gallery-using-Grid/master/screenshots/not%20minified.png)
 
